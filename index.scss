@@ -6,7 +6,7 @@
 
   @include after {
     position: absolute;
-    background: component-url('off-canvas-menu/logo.svg') no-repeat 0 0;
+    background: component-url('off-canvas-menu', 'logo.svg') no-repeat 0 0;
     background-size: 45px 25px;
     height: 25px;
     width: 45px;
@@ -17,7 +17,7 @@
 }
 
 .mobile-header__button {
-  background: component-url('off-canvas-menu/hamburger.svg') no-repeat 0 0;
+  background: component-url('off-canvas-menu', 'hamburger.svg') no-repeat 0 0;
   background-size: 18px 16px;
   display: block;
   height: 16px;

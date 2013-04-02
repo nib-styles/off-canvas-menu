@@ -1,6 +1,6 @@
 {
   "name": "off-canvas-menu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Styles for the off-canvas, mobile-friendly navigation",
   "styles": ["index.scss"],
   "files": ["hamburger.svg", "logo.svg"]
