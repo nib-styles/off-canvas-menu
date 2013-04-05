@@ -8,7 +8,10 @@
 .off-canvas__body {
   -webkit-transition: -webkit-transform 0.5s ease-in-out();
   transition: transform 0.5s ease-in-out();
-  box-shadow: -2px 0 6px rgba(#000, 0.4);
+
+  @media (max-width:959px) {
+    box-shadow: -2px 0 6px rgba(#000, 0.4);    
+  }
 }
 
 .off-canvas__content {
