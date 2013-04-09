@@ -1,6 +1,6 @@
 {
   "name": "off-canvas-menu",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Styles for the off-canvas, mobile-friendly navigation",
   "styles": ["index.scss"]
 }

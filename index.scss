@@ -8,9 +8,9 @@
 .off-canvas__body {
   -webkit-transition: -webkit-transform 0.5s ease-in-out();
   transition: transform 0.5s ease-in-out();
-
-  @media (max-width:959px) {
-    box-shadow: -2px 0 6px rgba(#000, 0.4);    
+  background: #444;
+  @media (max-width: 959px) {
+    box-shadow: -2px -6px 6px rgba(#000, 0.4);
   }
 }
 
