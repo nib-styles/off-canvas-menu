@@ -1,5 +1,9 @@
 .off-canvas {
   @media (max-width: 959px) {
+    &.is-open {
+      max-width: 100%;
+      overflow: hidden;
+    }
     &.is-open .off-canvas__body {
       @include transform(translateX(280px));
       overflow: hidden;
