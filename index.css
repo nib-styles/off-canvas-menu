@@ -1,0 +1,28 @@
+.off-canvas__body {
+  background: #444;
+}
+
+.off-canvas__content {
+  width: 280px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+}
+
+@media (max-width: 959px) {
+  .off-canvas__body {
+    transition: transform 0.5s ease-in-out;
+    box-shadow: -2px -6px 6px rgba(0, 0, 0, 0.4);
+  }
+  .off-canvas.is-open {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .off-canvas.is-open .off-canvas__body {
+    transform: translateX(280px);
+    overflow: hidden;
+  }
+}
