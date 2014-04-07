@@ -12,6 +12,10 @@
   overflow: scroll;
 }
 
+.off-canvas__content::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 959px) {
   .off-canvas__body {
     transition: transform 0.5s ease-in-out;
