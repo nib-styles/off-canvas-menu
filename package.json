@@ -1,0 +1,10 @@
+{
+  "name": "@nib-styles/off-canvas-menu",
+  "version": "0.2.1",
+  "description": "Styles for the off-canvas, mobile-friendly navigation",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/off-canvas-menu.git"
+  }
+}
